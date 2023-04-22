@@ -26,18 +26,13 @@ python manage.py migrate
 
 Populate the database with randomly generated data (amount = number of purchases):
 ```shell
-python manage.py load_data --amount 2500
+python manage.py load_data --amount 2000
 ```
 
 Create a superuser, and run the server:
 ```shell
 python manage.py createsuperuser
+
 python manage.py runserver
 ```
 
-- [http://127.0.0.1:8000/shop/statistics/](http://127.0.0.1:8000/shop/statistics/) -
-  Stats view
-- [http://127.0.0.1:8000/admin/statistics/](http://127.0.0.1:8000/admin/statistics/) -
-  Admin view
-- [http://127.0.0.1:8000/admin/shop/](http://127.0.0.1:8000/admin/shop/) - Extended
-  admin view
